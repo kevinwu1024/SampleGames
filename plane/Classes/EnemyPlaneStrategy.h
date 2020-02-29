@@ -24,6 +24,7 @@
 
 #include "cocos2d.h"
 #include "SpeedCC.h"
+#include "TypeDef.h"
 
 class EnemyPlaneStrategy : public SpeedCC::SCStrategy
 {
