@@ -1,0 +1,3 @@
+[submodule "library/speedcc"]
+	path = library/speedcc
+	url = https://github.com/kevinwu1024/SpeedCC.git
