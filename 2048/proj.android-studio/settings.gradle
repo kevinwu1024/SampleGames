@@ -1,0 +1,9 @@
+
+include ':libcocos2dx'
+project(':libcocos2dx').projectDir = new File(settingsDir, '../../library/speedcc/cocos2dx/v3/cocos/platform/android/libcocos2dx')
+
+include ':libspeedcc'
+project(':libspeedcc').projectDir = new File(settingsDir, '../../library/speedcc/speedcc/platform/android/speedcc')
+
+include ':Game2048'
+project(':Game2048').projectDir = new File(settingsDir, 'app')
